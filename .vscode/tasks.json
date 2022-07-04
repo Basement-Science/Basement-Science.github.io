@@ -6,7 +6,7 @@
         {
           "label": "Compile Markdown",
           "type": "shell",
-          "command": "markdown-it index.md -o index.html",
+          "command": "markdown-it README.md -o README.html",
           "group": "build"
         }
       ]
