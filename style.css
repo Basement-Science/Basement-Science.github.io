@@ -1,0 +1,15 @@
+a.clickCopy {
+    position: relative ;
+  }
+  a.clickCopy:hover::after {
+    content: "Click to Copy" ;
+    position: absolute ;
+    top: 1.2em ;
+    left: 0em ;
+    border: 1px #B5E853 solid ;
+    padding: 8px ;
+    color: white ;
+    background-color: black ;
+    z-index: 1 ;
+    white-space: nowrap ;
+  } 
