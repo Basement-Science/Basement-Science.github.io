@@ -1,5 +1,6 @@
-<script> **!READERS! View this site** [here](https://basement-science.github.io/) </script>
+<script> !READERS! View this site here: https://basement-science.github.io/ </script>
 
+<link rel="stylesheet" href="style.css">
 <!--
 https://www.arclab.com/en/kb/htmlcss/how-to-copy-text-from-html-element-to-clipboard.html
 -->
@@ -14,7 +15,6 @@ function CopyToClipboard(id){
   return false;
 }
 </script>
-<link rel="stylesheet" href="style.css">
 
 # Welcome 
 I'm just one guy who's interested in Science, Technology and so on. I occasionally publish videos on Youtube and code on github.
