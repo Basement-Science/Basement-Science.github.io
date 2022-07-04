@@ -1,4 +1,4 @@
-<script><!-- !READERS! View this site [here](https://basement-science.github.io/).  --></script>
+<script> !READERS! View this site [here](https://basement-science.github.io/). </script>
 <!--
 https://www.arclab.com/en/kb/htmlcss/how-to-copy-text-from-html-element-to-clipboard.html
 -->
