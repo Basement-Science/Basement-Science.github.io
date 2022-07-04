@@ -1,0 +1,47 @@
+<!--
+https://www.arclab.com/en/kb/htmlcss/how-to-copy-text-from-html-element-to-clipboard.html
+-->
+<script>
+function CopyToClipboard(id){
+  var r = document.createRange();
+  r.selectNode(document.getElementById(id));
+  window.getSelection().removeAllRanges();
+  window.getSelection().addRange(r);
+  document.execCommand('copy');
+  window.getSelection().removeAllRanges();
+  return false;
+}
+</script>
+<h1>How to Donate</h1>
+<p>If you want to make a donation to Basement-Science, this document lists all currently available ways to do so.</p>
+<p>Any amount is appreciated.</p>
+<h2>Donate Cryptocurrency</h2>
+<p>Cryptocurrency is available globally and with mostly very low fees, and can respect everyone's privacy.
+It is currently the only supported way of donating.</p>
+<p>Simply send any amount to the respective currency's address:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Currency Name</th>
+<th style="text-align:center">Symbol</th>
+<th style="text-align:left">Address</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Bitcon</td>
+<td style="text-align:center">BTC</td>
+<td style="text-align:left"><a href="javascript:void(0);" onclick="CopyToClipboard('BTC');">⎘</a> <span id="BTC">bc1qs06lfxq8qu92gx6y65ttckp0gv66acyeufnjr8</span></td>
+</tr>
+<tr>
+<td style="text-align:left">Ethereum<br>(+ERC20)</td>
+<td style="text-align:center">ETH,<br>ETC</td>
+<td style="text-align:left"><a href="javascript:void(0);" onclick="CopyToClipboard('ETH');">⎘</a> <span id="ETH">0xd484d7835f5555387d256bd059d6424d4491b0e4</span></td>
+</tr>
+<tr>
+<td style="text-align:left">Monero</td>
+<td style="text-align:center">XMR</td>
+<td style="text-align:left"><a href="javascript:void(0);" onclick="CopyToClipboard('XMR');">⎘</a> <span id="XMR">84Pk6a6FQQxEn4JXrTEgR8VhQULmvwLxh1wfmeua2SeaCcNwdyoXG3YcjiMcKVgXfihBrW3ZvK4PG3EnbqdyhFECETBtxms</span></td>
+</tr>
+</tbody>
+</table>
