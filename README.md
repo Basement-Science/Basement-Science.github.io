@@ -31,8 +31,8 @@ On my **main Youtube channel**, I post educational videos about science and elec
 On my **second Youtube channel**, the videos may be very random and low-effort. Usually still science/technology-related, but not necessarily.
 <br><br>
 
-# How to Donate
-If you want to make a donation to Basement-Science, this document lists all currently available ways to do so.
+<h1 id="donate">How to Donate</h1>
+If you want to make a donation to Basement-Science, this paragraph lists all currently available ways to do so.
 
 **Any amount is appreciated.**
 
